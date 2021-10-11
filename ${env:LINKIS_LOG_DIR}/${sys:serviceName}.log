@@ -1,0 +1,786 @@
+2021-10-11 11:20:53.605 [INFO ] [main                                    ] c.w.w.l.e.SpringCloudEurekaApplication (655) [logStartupProfileInfo] - The following profiles are active: eureka
+2021-10-11 11:20:54.728 [WARN ] [main                                    ] o.s.b.a.e.EndpointId (155) [logWarning] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2021-10-11 11:20:54.875 [INFO ] [main                                    ] o.s.c.c.s.GenericScope (295) [setSerializationId] - BeanFactory id=146ae21f-7813-3661-8a5e-107b3e05e196
+2021-10-11 11:20:55.355 [INFO ] [main                                    ] o.s.b.w.e.t.TomcatWebServer (92) [initialize] - Tomcat initialized with port(s): 20303 (http)
+2021-10-11 11:20:55.372 [INFO ] [main                                    ] o.a.c.h.Http11NioProtocol (173) [log] - Initializing ProtocolHandler ["http-nio-20303"]
+2021-10-11 11:20:55.372 [INFO ] [main                                    ] o.a.c.c.StandardService (173) [log] - Starting service [Tomcat]
+2021-10-11 11:20:55.372 [INFO ] [main                                    ] o.a.c.c.StandardEngine (173) [log] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-10-11 11:20:55.477 [INFO ] [main                                    ] o.a.c.c.C.[.[.[/] (173) [log] - Initializing Spring embedded WebApplicationContext
+2021-10-11 11:20:55.478 [INFO ] [main                                    ] o.s.w.c.ContextLoader (284) [prepareWebApplicationContext] - Root WebApplicationContext: initialization completed in 1824 ms
+2021-10-11 11:20:55.716 [WARN ] [main                                    ] c.n.c.s.URLConfigurationSource (121) [<init>] - No URLs will be polled as dynamic configuration sources.
+2021-10-11 11:20:55.717 [INFO ] [main                                    ] c.n.c.s.URLConfigurationSource (122) [<init>] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-11 11:20:55.724 [INFO ] [main                                    ] c.n.c.DynamicPropertyFactory (281) [getInstance] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@62d40e31
+2021-10-11 11:20:56.355 [INFO ] [main                                    ] c.s.j.s.i.a.WebApplicationImpl (815) [_initiate] - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2021-10-11 11:20:56.429 [INFO ] [main                                    ] c.n.d.p.DiscoveryJerseyProvider (70) [<init>] - Using JSON encoding codec LegacyJacksonJson
+2021-10-11 11:20:56.429 [INFO ] [main                                    ] c.n.d.p.DiscoveryJerseyProvider (71) [<init>] - Using JSON decoding codec LegacyJacksonJson
+2021-10-11 11:20:56.546 [INFO ] [main                                    ] c.n.d.p.DiscoveryJerseyProvider (80) [<init>] - Using XML encoding codec XStreamXml
+2021-10-11 11:20:56.546 [INFO ] [main                                    ] c.n.d.p.DiscoveryJerseyProvider (81) [<init>] - Using XML decoding codec XStreamXml
+2021-10-11 11:20:57.088 [WARN ] [main                                    ] c.n.c.s.URLConfigurationSource (121) [<init>] - No URLs will be polled as dynamic configuration sources.
+2021-10-11 11:20:57.088 [INFO ] [main                                    ] c.n.c.s.URLConfigurationSource (122) [<init>] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-11 11:20:57.481 [INFO ] [main                                    ] o.s.s.c.ThreadPoolTaskExecutor (171) [initialize] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-11 11:20:57.842 [WARN ] [main                                    ] o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger (86) [logWarning] - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-10-11 11:20:57.902 [INFO ] [main                                    ] o.s.c.n.e.InstanceInfoFactory (72) [create] - Setting initial instance status as: STARTING
+2021-10-11 11:20:57.924 [INFO ] [main                                    ] c.n.d.DiscoveryClient (365) [<init>] - Initializing Eureka in region us-east-1
+2021-10-11 11:20:58.202 [INFO ] [main                                    ] c.n.d.p.DiscoveryJerseyProvider (70) [<init>] - Using JSON encoding codec LegacyJacksonJson
+2021-10-11 11:20:58.202 [INFO ] [main                                    ] c.n.d.p.DiscoveryJerseyProvider (71) [<init>] - Using JSON decoding codec LegacyJacksonJson
+2021-10-11 11:20:58.202 [INFO ] [main                                    ] c.n.d.p.DiscoveryJerseyProvider (80) [<init>] - Using XML encoding codec XStreamXml
+2021-10-11 11:20:58.202 [INFO ] [main                                    ] c.n.d.p.DiscoveryJerseyProvider (81) [<init>] - Using XML decoding codec XStreamXml
+2021-10-11 11:20:58.341 [INFO ] [main                                    ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 11:20:58.366 [INFO ] [main                                    ] c.n.d.DiscoveryClient (976) [fetchRegistry] - Disable delta property : false
+2021-10-11 11:20:58.366 [INFO ] [main                                    ] c.n.d.DiscoveryClient (977) [fetchRegistry] - Single vip registry refresh property : null
+2021-10-11 11:20:58.367 [INFO ] [main                                    ] c.n.d.DiscoveryClient (978) [fetchRegistry] - Force full registry fetch : false
+2021-10-11 11:20:58.367 [INFO ] [main                                    ] c.n.d.DiscoveryClient (979) [fetchRegistry] - Application is null : false
+2021-10-11 11:20:58.367 [INFO ] [main                                    ] c.n.d.DiscoveryClient (980) [fetchRegistry] - Registered Applications size is zero : true
+2021-10-11 11:20:58.367 [INFO ] [main                                    ] c.n.d.DiscoveryClient (982) [fetchRegistry] - Application version is -1: true
+2021-10-11 11:20:58.367 [INFO ] [main                                    ] c.n.d.DiscoveryClient (1065) [getAndStoreFullRegistry] - Getting all instance registry info from the eureka server
+2021-10-11 11:20:58.422 [ERROR] [main                                    ] c.n.d.s.t.d.RedirectingEurekaHttpClient (83) [execute] - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://127.0.0.1:20303/eureka/} com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused (Connection refused)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:194) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplications(AbstractJerseyEurekaHttpClient.java:165) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1069) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:983) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:430) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:276) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:272) ~[eureka-client-1.9.13.jar:1.9.13]
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:67) ~[spring-cloud-netflix-eureka-client-2.2.1.RELEASE.jar:2.2.1.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:324) ~[spring-cloud-netflix-eureka-client-2.2.1.RELEASE.jar:2.2.1.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:359) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:389) ~[spring-cloud-context-2.2.1.RELEASE.jar:2.2.1.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:186) ~[spring-cloud-context-2.2.1.RELEASE.jar:2.2.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:356) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35) ~[spring-aop-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:192) ~[spring-aop-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at com.sun.proxy.$Proxy113.getApplications(Unknown Source) ~[?:?]
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration.peerAwareInstanceRegistry(EurekaServerAutoConfiguration.java:154) ~[spring-cloud-netflix-eureka-server-2.2.1.RELEASE.jar:2.2.1.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:539) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) [spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) [spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) [spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879) [spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) [spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) [spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at com.webank.wedatasphere.linkis.eureka.SpringCloudEurekaApplication.main(SpringCloudEurekaApplication.java:31) [classes/:?]
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_301]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476) ~[?:1.8.0_301]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218) ~[?:1.8.0_301]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200) ~[?:1.8.0_301]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394) ~[?:1.8.0_301]
+	at java.net.Socket.connect(Socket.java:606) ~[?:1.8.0_301]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.3.jar:4.5.3]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 100 more
+
+2021-10-11 11:20:58.431 [WARN ] [main                                    ] c.n.d.s.t.d.RetryableEurekaHttpClient (130) [execute] - Request execution failed with message: java.net.ConnectException: Connection refused (Connection refused)
+2021-10-11 11:20:58.433 [ERROR] [main                                    ] c.n.d.DiscoveryClient (990) [fetchRegistry] - DiscoveryClient_LINKIS-MG-EUREKA/10.18.58.173:linkis-mg-eureka:20303 - was unable to refresh its cache! status = Cannot execute request on any known server com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1069) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:983) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:430) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:276) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:272) ~[eureka-client-1.9.13.jar:1.9.13]
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:67) ~[spring-cloud-netflix-eureka-client-2.2.1.RELEASE.jar:2.2.1.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:324) ~[spring-cloud-netflix-eureka-client-2.2.1.RELEASE.jar:2.2.1.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:359) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:389) ~[spring-cloud-context-2.2.1.RELEASE.jar:2.2.1.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:186) ~[spring-cloud-context-2.2.1.RELEASE.jar:2.2.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:356) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35) ~[spring-aop-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:192) ~[spring-aop-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at com.sun.proxy.$Proxy113.getApplications(Unknown Source) ~[?:?]
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration.peerAwareInstanceRegistry(EurekaServerAutoConfiguration.java:154) ~[spring-cloud-netflix-eureka-server-2.2.1.RELEASE.jar:2.2.1.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:539) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) [spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) [spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) [spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879) [spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) [spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) [spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at com.webank.wedatasphere.linkis.eureka.SpringCloudEurekaApplication.main(SpringCloudEurekaApplication.java:31) [classes/:?]
+
+2021-10-11 11:20:58.434 [WARN ] [main                                    ] c.n.d.DiscoveryClient (297) [get] - Using default backup registry implementation which does not do anything.
+2021-10-11 11:20:58.437 [INFO ] [main                                    ] c.n.d.DiscoveryClient (1288) [initScheduledTasks] - Starting heartbeat executor: renew interval is: 30
+2021-10-11 11:20:58.439 [INFO ] [main                                    ] c.n.d.InstanceInfoReplicator (60) [<init>] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-10-11 11:20:58.449 [INFO ] [main                                    ] c.n.d.DiscoveryClient (465) [<init>] - Discovery Client initialized at timestamp 1633922458441 with initial instances count: 0
+2021-10-11 11:20:58.490 [INFO ] [main                                    ] c.n.e.DefaultEurekaServerContext (63) [initialize] - Initializing ...
+2021-10-11 11:20:58.491 [WARN ] [main                                    ] c.n.e.c.PeerEurekaNodes (155) [updatePeerEurekaNodes] - The replica size seems to be empty. Check the route 53 DNS Registry
+2021-10-11 11:20:58.499 [INFO ] [main                                    ] c.n.e.r.AbstractInstanceRegistry (151) [initRemoteRegionRegistry] - Finished initializing remote region registries. All known remote regions: []
+2021-10-11 11:20:58.501 [INFO ] [main                                    ] c.n.e.DefaultEurekaServerContext (70) [initialize] - Initialized
+2021-10-11 11:20:58.534 [INFO ] [main                                    ] o.s.b.a.e.w.EndpointLinksResolver (58) [<init>] - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-10-11 11:20:58.643 [INFO ] [main                                    ] o.s.c.n.e.s.EurekaServiceRegistry (41) [register] - Registering application LINKIS-MG-EUREKA with eureka with status UP
+2021-10-11 11:20:58.644 [INFO ] [main                                    ] c.n.d.DiscoveryClient (1323) [notify] - Saw local status change event StatusChangeEvent [timestamp=1633922458644, current=UP, previous=STARTING]
+2021-10-11 11:20:58.647 [INFO ] [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.DiscoveryClient (844) [register] - DiscoveryClient_LINKIS-MG-EUREKA/10.18.58.173:linkis-mg-eureka:20303: registering service...
+2021-10-11 11:20:58.669 [INFO ] [Thread-23                               ] o.s.c.n.e.s.EurekaServerBootstrap (110) [initEurekaEnvironment] - Setting the eureka configuration..
+2021-10-11 11:20:58.671 [INFO ] [Thread-23                               ] o.s.c.n.e.s.EurekaServerBootstrap (115) [initEurekaEnvironment] - Eureka data center value eureka.datacenter is not set, defaulting to default
+2021-10-11 11:20:58.673 [INFO ] [Thread-23                               ] o.s.c.n.e.s.EurekaServerBootstrap (129) [initEurekaEnvironment] - Eureka environment value eureka.environment is not set, defaulting to test
+2021-10-11 11:20:58.693 [ERROR] [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.s.t.d.RedirectingEurekaHttpClient (83) [execute] - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://127.0.0.1:20303/eureka/} com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused (Connection refused)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.register(AbstractJerseyEurekaHttpClient.java:56) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:847) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) [eureka-client-1.9.13.jar:1.9.13]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_301]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) [?:1.8.0_301]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) [?:1.8.0_301]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_301]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_301]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_301]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_301]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_301]
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_301]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476) ~[?:1.8.0_301]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218) ~[?:1.8.0_301]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200) ~[?:1.8.0_301]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394) ~[?:1.8.0_301]
+	at java.net.Socket.connect(Socket.java:606) ~[?:1.8.0_301]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.3.jar:4.5.3]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 31 more
+
+2021-10-11 11:20:58.704 [WARN ] [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.s.t.d.RetryableEurekaHttpClient (130) [execute] - Request execution failed with message: java.net.ConnectException: Connection refused (Connection refused)
+2021-10-11 11:20:58.704 [WARN ] [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.DiscoveryClient (849) [register] - DiscoveryClient_LINKIS-MG-EUREKA/10.18.58.173:linkis-mg-eureka:20303 - registration failed Cannot execute request on any known server com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:847) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) [eureka-client-1.9.13.jar:1.9.13]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_301]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) [?:1.8.0_301]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) [?:1.8.0_301]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_301]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_301]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_301]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_301]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_301]
+
+2021-10-11 11:20:58.705 [WARN ] [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.InstanceInfoReplicator (125) [run] - There was a problem with the instance info replicator com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:847) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) [eureka-client-1.9.13.jar:1.9.13]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_301]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) [?:1.8.0_301]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) [?:1.8.0_301]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_301]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_301]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_301]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_301]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_301]
+
+2021-10-11 11:20:58.706 [INFO ] [main                                    ] o.a.c.h.Http11NioProtocol (173) [log] - Starting ProtocolHandler ["http-nio-20303"]
+2021-10-11 11:20:58.718 [INFO ] [Thread-23                               ] o.s.c.n.e.s.EurekaServerBootstrap (188) [isAws] - isAws returned false
+2021-10-11 11:20:58.719 [INFO ] [Thread-23                               ] o.s.c.n.e.s.EurekaServerBootstrap (153) [initEurekaServerContext] - Initialized server context
+2021-10-11 11:20:58.760 [INFO ] [main                                    ] o.s.b.w.e.t.TomcatWebServer (204) [start] - Tomcat started on port(s): 20303 (http) with context path ''
+2021-10-11 11:20:58.766 [INFO ] [main                                    ] o.s.c.n.e.s.EurekaAutoServiceRegistration (145) [onApplicationEvent] - Updating port to 20303
+2021-10-11 11:20:58.773 [INFO ] [main                                    ] c.w.w.l.e.SpringCloudEurekaApplication (61) [logStarted] - Started SpringCloudEurekaApplication in 6.324 seconds (JVM running for 7.95)
+2021-10-11 11:20:59.250 [INFO ] [http-nio-20303-exec-2                   ] o.a.c.c.C.[.[.[/] (173) [log] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-11 11:20:59.251 [INFO ] [http-nio-20303-exec-2                   ] o.s.w.s.DispatcherServlet (525) [initServletBean] - Initializing Servlet 'dispatcherServlet'
+2021-10-11 11:20:59.275 [INFO ] [http-nio-20303-exec-2                   ] o.s.w.s.DispatcherServlet (547) [initServletBean] - Completed initialization in 24 ms
+2021-10-11 11:20:59.753 [WARN ] [http-nio-20303-exec-5                   ] c.n.e.r.AbstractInstanceRegistry (353) [renew] - DS: Registry: lease doesn't exist, registering resource: LINKIS-CG-ENGINEPLUGIN - 10.18.58.173:linkis-cg-engineplugin:9103
+2021-10-11 11:20:59.754 [WARN ] [http-nio-20303-exec-5                   ] c.n.e.r.InstanceResource (116) [renewLease] - Not Found (Renew): LINKIS-CG-ENGINEPLUGIN - 10.18.58.173:linkis-cg-engineplugin:9103
+2021-10-11 11:20:59.902 [INFO ] [http-nio-20303-exec-6                   ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-CG-ENGINEPLUGIN/10.18.58.173:linkis-cg-engineplugin:9103 with status UP (replication=false)
+2021-10-11 11:21:04.566 [WARN ] [http-nio-20303-exec-9                   ] c.n.e.r.AbstractInstanceRegistry (353) [renew] - DS: Registry: lease doesn't exist, registering resource: LINKIS-MG-GATEWAY - 10.18.58.173:linkis-mg-gateway:9001
+2021-10-11 11:21:04.567 [WARN ] [http-nio-20303-exec-9                   ] c.n.e.r.InstanceResource (116) [renewLease] - Not Found (Renew): LINKIS-MG-GATEWAY - 10.18.58.173:linkis-mg-gateway:9001
+2021-10-11 11:21:04.655 [INFO ] [http-nio-20303-exec-10                  ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-MG-GATEWAY/10.18.58.173:linkis-mg-gateway:9001 with status UP (replication=false)
+2021-10-11 11:21:09.157 [WARN ] [http-nio-20303-exec-3                   ] c.n.e.r.AbstractInstanceRegistry (353) [renew] - DS: Registry: lease doesn't exist, registering resource: LINKIS-PS-PUBLICSERVICE - 10.18.58.173:linkis-ps-publicservice:9105
+2021-10-11 11:21:09.157 [WARN ] [http-nio-20303-exec-3                   ] c.n.e.r.InstanceResource (116) [renewLease] - Not Found (Renew): LINKIS-PS-PUBLICSERVICE - 10.18.58.173:linkis-ps-publicservice:9105
+2021-10-11 11:21:09.209 [INFO ] [http-nio-20303-exec-6                   ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-PS-PUBLICSERVICE/10.18.58.173:linkis-ps-publicservice:9105 with status UP (replication=false)
+2021-10-11 11:21:09.750 [WARN ] [http-nio-20303-exec-7                   ] c.n.e.r.AbstractInstanceRegistry (353) [renew] - DS: Registry: lease doesn't exist, registering resource: LINKIS-CG-ENTRANCE - 10.18.58.173:linkis-cg-entrance:9104
+2021-10-11 11:21:09.751 [WARN ] [http-nio-20303-exec-7                   ] c.n.e.r.InstanceResource (116) [renewLease] - Not Found (Renew): LINKIS-CG-ENTRANCE - 10.18.58.173:linkis-cg-entrance:9104
+2021-10-11 11:21:09.854 [INFO ] [http-nio-20303-exec-8                   ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-CG-ENTRANCE/10.18.58.173:linkis-cg-entrance:9104 with status UP (replication=false)
+2021-10-11 11:21:10.312 [WARN ] [http-nio-20303-exec-1                   ] c.n.e.r.AbstractInstanceRegistry (353) [renew] - DS: Registry: lease doesn't exist, registering resource: LINKIS-CG-LINKISMANAGER - 10.18.58.173:linkis-cg-linkismanager:9101
+2021-10-11 11:21:10.313 [WARN ] [http-nio-20303-exec-1                   ] c.n.e.r.InstanceResource (116) [renewLease] - Not Found (Renew): LINKIS-CG-LINKISMANAGER - 10.18.58.173:linkis-cg-linkismanager:9101
+2021-10-11 11:21:10.334 [INFO ] [http-nio-20303-exec-5                   ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-CG-LINKISMANAGER/10.18.58.173:linkis-cg-linkismanager:9101 with status UP (replication=false)
+2021-10-11 11:21:10.726 [INFO ] [http-nio-20303-exec-7                   ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-MG-GATEWAY/10.18.58.173:linkis-mg-gateway:9001 with status DOWN (replication=false)
+2021-10-11 11:21:17.203 [WARN ] [http-nio-20303-exec-2                   ] c.n.e.r.AbstractInstanceRegistry (353) [renew] - DS: Registry: lease doesn't exist, registering resource: LINKIS-PS-CS - 10.18.58.173:linkis-ps-cs:9108
+2021-10-11 11:21:17.203 [WARN ] [http-nio-20303-exec-2                   ] c.n.e.r.InstanceResource (116) [renewLease] - Not Found (Renew): LINKIS-PS-CS - 10.18.58.173:linkis-ps-cs:9108
+2021-10-11 11:21:17.295 [INFO ] [http-nio-20303-exec-4                   ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-PS-CS/10.18.58.173:linkis-ps-cs:9108 with status UP (replication=false)
+2021-10-11 11:21:17.380 [WARN ] [http-nio-20303-exec-6                   ] c.n.e.r.AbstractInstanceRegistry (353) [renew] - DS: Registry: lease doesn't exist, registering resource: LINKIS-CG-ENGINECONNMANAGER - 10.18.58.173:linkis-cg-engineconnmanager:9102
+2021-10-11 11:21:17.380 [WARN ] [http-nio-20303-exec-6                   ] c.n.e.r.InstanceResource (116) [renewLease] - Not Found (Renew): LINKIS-CG-ENGINECONNMANAGER - 10.18.58.173:linkis-cg-engineconnmanager:9102
+2021-10-11 11:21:17.573 [INFO ] [http-nio-20303-exec-7                   ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-CG-ENGINECONNMANAGER/10.18.58.173:linkis-cg-engineconnmanager:9102 with status UP (replication=false)
+2021-10-11 11:21:19.768 [INFO ] [http-nio-20303-exec-10                  ] c.n.e.r.AbstractInstanceRegistry (330) [internalCancel] - Cancelled instance LINKIS-MG-GATEWAY/10.18.58.173:linkis-mg-gateway:9001 (replication=false)
+2021-10-11 11:21:28.451 [INFO ] [DiscoveryClient-CacheRefreshExecutor-0  ] c.n.d.DiscoveryClient (976) [fetchRegistry] - Disable delta property : false
+2021-10-11 11:21:28.452 [INFO ] [DiscoveryClient-CacheRefreshExecutor-0  ] c.n.d.DiscoveryClient (977) [fetchRegistry] - Single vip registry refresh property : null
+2021-10-11 11:21:28.453 [INFO ] [DiscoveryClient-CacheRefreshExecutor-0  ] c.n.d.DiscoveryClient (978) [fetchRegistry] - Force full registry fetch : false
+2021-10-11 11:21:28.453 [INFO ] [DiscoveryClient-CacheRefreshExecutor-0  ] c.n.d.DiscoveryClient (979) [fetchRegistry] - Application is null : false
+2021-10-11 11:21:28.453 [INFO ] [DiscoveryClient-CacheRefreshExecutor-0  ] c.n.d.DiscoveryClient (980) [fetchRegistry] - Registered Applications size is zero : true
+2021-10-11 11:21:28.453 [INFO ] [DiscoveryClient-CacheRefreshExecutor-0  ] c.n.d.DiscoveryClient (982) [fetchRegistry] - Application version is -1: true
+2021-10-11 11:21:28.456 [INFO ] [DiscoveryClient-CacheRefreshExecutor-0  ] c.n.d.DiscoveryClient (1065) [getAndStoreFullRegistry] - Getting all instance registry info from the eureka server
+2021-10-11 11:21:28.516 [WARN ] [http-nio-20303-exec-7                   ] c.n.e.r.AbstractInstanceRegistry (353) [renew] - DS: Registry: lease doesn't exist, registering resource: LINKIS-MG-EUREKA - 10.18.58.173:linkis-mg-eureka:20303
+2021-10-11 11:21:28.516 [WARN ] [http-nio-20303-exec-7                   ] c.n.e.r.InstanceResource (116) [renewLease] - Not Found (Renew): LINKIS-MG-EUREKA - 10.18.58.173:linkis-mg-eureka:20303
+2021-10-11 11:21:28.566 [INFO ] [DiscoveryClient-HeartbeatExecutor-0     ] c.n.d.DiscoveryClient (868) [renew] - DiscoveryClient_LINKIS-MG-EUREKA/10.18.58.173:linkis-mg-eureka:20303 - Re-registering apps/LINKIS-MG-EUREKA
+2021-10-11 11:21:28.567 [INFO ] [DiscoveryClient-HeartbeatExecutor-0     ] c.n.d.DiscoveryClient (844) [register] - DiscoveryClient_LINKIS-MG-EUREKA/10.18.58.173:linkis-mg-eureka:20303: registering service...
+2021-10-11 11:21:28.594 [INFO ] [DiscoveryClient-CacheRefreshExecutor-0  ] c.n.d.DiscoveryClient (1074) [getAndStoreFullRegistry] - The response status is 200
+2021-10-11 11:21:28.617 [INFO ] [http-nio-20303-exec-8                   ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-MG-EUREKA/10.18.58.173:linkis-mg-eureka:20303 with status UP (replication=false)
+2021-10-11 11:21:28.624 [INFO ] [DiscoveryClient-HeartbeatExecutor-0     ] c.n.d.DiscoveryClient (853) [register] - DiscoveryClient_LINKIS-MG-EUREKA/10.18.58.173:linkis-mg-eureka:20303 - registration status: 204
+2021-10-11 11:21:28.725 [INFO ] [Thread-23                               ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-PS-CS/10.18.58.173:linkis-ps-cs:9108 with status UP (replication=true)
+2021-10-11 11:21:28.726 [INFO ] [Thread-23                               ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-CG-LINKISMANAGER/10.18.58.173:linkis-cg-linkismanager:9101 with status UP (replication=true)
+2021-10-11 11:21:28.732 [INFO ] [Thread-23                               ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-CG-ENGINECONNMANAGER/10.18.58.173:linkis-cg-engineconnmanager:9102 with status UP (replication=true)
+2021-10-11 11:21:28.732 [INFO ] [Thread-23                               ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-CG-ENTRANCE/10.18.58.173:linkis-cg-entrance:9104 with status UP (replication=true)
+2021-10-11 11:21:28.734 [INFO ] [Thread-23                               ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-CG-ENGINEPLUGIN/10.18.58.173:linkis-cg-engineplugin:9103 with status UP (replication=true)
+2021-10-11 11:21:28.737 [INFO ] [Thread-23                               ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-PS-PUBLICSERVICE/10.18.58.173:linkis-ps-publicservice:9105 with status UP (replication=true)
+2021-10-11 11:21:28.737 [INFO ] [Thread-23                               ] c.n.e.r.PeerAwareInstanceRegistryImpl (241) [openForTraffic] - Got 6 instances from neighboring DS node
+2021-10-11 11:21:28.737 [INFO ] [Thread-23                               ] c.n.e.r.PeerAwareInstanceRegistryImpl (242) [openForTraffic] - Renew threshold is: 10
+2021-10-11 11:21:28.737 [INFO ] [Thread-23                               ] c.n.e.r.PeerAwareInstanceRegistryImpl (253) [openForTraffic] - Changing status to UP
+2021-10-11 11:21:28.755 [INFO ] [Thread-23                               ] o.s.c.n.e.s.EurekaServerInitializerConfiguration (72) [lambda$start$0] - Started Eureka Server
+2021-10-11 11:21:43.543 [INFO ] [http-nio-20303-exec-5                   ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-MG-GATEWAY/10.18.58.173:linkis-mg-gateway:9001 with status UP (replication=false)
+2021-10-11 11:21:44.816 [INFO ] [http-nio-20303-exec-4                   ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-PS-PUBLICSERVICE/10.18.58.173:linkis-ps-publicservice:9105 with status DOWN (replication=false)
+2021-10-11 11:21:49.272 [INFO ] [http-nio-20303-exec-9                   ] c.n.e.r.AbstractInstanceRegistry (330) [internalCancel] - Cancelled instance LINKIS-PS-PUBLICSERVICE/10.18.58.173:linkis-ps-publicservice:9105 (replication=false)
+2021-10-11 11:22:05.877 [INFO ] [http-nio-20303-exec-6                   ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-CG-ENTRANCE/10.18.58.173:linkis-cg-entrance:9104 with status DOWN (replication=false)
+2021-10-11 11:22:10.215 [INFO ] [http-nio-20303-exec-10                  ] c.n.e.r.AbstractInstanceRegistry (330) [internalCancel] - Cancelled instance LINKIS-CG-ENTRANCE/10.18.58.173:linkis-cg-entrance:9104 (replication=false)
+2021-10-11 11:22:26.815 [INFO ] [http-nio-20303-exec-9                   ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-PS-PUBLICSERVICE/10.18.58.173:linkis-ps-publicservice:9105 with status UP (replication=false)
+2021-10-11 11:22:28.739 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 0ms
+2021-10-11 11:22:36.022 [INFO ] [http-nio-20303-exec-3                   ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-PS-CS/10.18.58.173:linkis-ps-cs:9108 with status DOWN (replication=false)
+2021-10-11 11:22:40.709 [INFO ] [http-nio-20303-exec-5                   ] c.n.e.r.AbstractInstanceRegistry (330) [internalCancel] - Cancelled instance LINKIS-PS-CS/10.18.58.173:linkis-ps-cs:9108 (replication=false)
+2021-10-11 11:22:43.449 [INFO ] [http-nio-20303-exec-7                   ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-CG-ENTRANCE/10.18.58.173:linkis-cg-entrance:9104 with status UP (replication=false)
+2021-10-11 11:23:08.971 [INFO ] [http-nio-20303-exec-2                   ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-CG-ENGINECONNMANAGER/10.18.58.173:linkis-cg-engineconnmanager:9102 with status DOWN (replication=false)
+2021-10-11 11:23:13.002 [INFO ] [http-nio-20303-exec-1                   ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-PS-CS/10.18.58.173:linkis-ps-cs:9108 with status UP (replication=false)
+2021-10-11 11:23:15.999 [INFO ] [http-nio-20303-exec-4                   ] c.n.e.r.AbstractInstanceRegistry (330) [internalCancel] - Cancelled instance LINKIS-CG-ENGINECONNMANAGER/10.18.58.173:linkis-cg-engineconnmanager:9102 (replication=false)
+2021-10-11 11:23:28.744 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 11:23:39.298 [INFO ] [http-nio-20303-exec-7                   ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-CG-ENGINEPLUGIN/10.18.58.173:linkis-cg-engineplugin:9103 with status DOWN (replication=false)
+2021-10-11 11:23:41.985 [INFO ] [http-nio-20303-exec-4                   ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-CG-ENGINECONNMANAGER/10.18.58.173:linkis-cg-engineconnmanager:9102 with status UP (replication=false)
+2021-10-11 11:23:42.962 [INFO ] [http-nio-20303-exec-6                   ] c.n.e.r.AbstractInstanceRegistry (330) [internalCancel] - Cancelled instance LINKIS-CG-ENGINEPLUGIN/10.18.58.173:linkis-cg-engineplugin:9103 (replication=false)
+2021-10-11 11:24:10.964 [INFO ] [http-nio-20303-exec-6                   ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-CG-ENGINEPLUGIN/10.18.58.173:linkis-cg-engineplugin:9103 with status UP (replication=false)
+2021-10-11 11:24:22.939 [INFO ] [http-nio-20303-exec-7                   ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-CG-LINKISMANAGER/10.18.58.173:linkis-cg-linkismanager:9101 with status DOWN (replication=false)
+2021-10-11 11:24:26.374 [INFO ] [http-nio-20303-exec-9                   ] c.n.e.r.AbstractInstanceRegistry (330) [internalCancel] - Cancelled instance LINKIS-CG-LINKISMANAGER/10.18.58.173:linkis-cg-linkismanager:9101 (replication=false)
+2021-10-11 11:24:28.747 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 11:24:50.768 [INFO ] [http-nio-20303-exec-3                   ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-CG-LINKISMANAGER/10.18.58.173:linkis-cg-linkismanager:9101 with status UP (replication=false)
+2021-10-11 11:25:28.748 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 1ms
+2021-10-11 11:25:58.395 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 11:26:28.750 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 2ms
+2021-10-11 11:27:28.753 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 3ms
+2021-10-11 11:28:28.754 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 0ms
+2021-10-11 11:29:28.755 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 11:30:28.763 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 11:30:58.454 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 11:30:58.605 [WARN ] [Eureka-PeerNodesUpdater                 ] c.n.e.c.PeerEurekaNodes (155) [updatePeerEurekaNodes] - The replica size seems to be empty. Check the route 53 DNS Registry
+2021-10-11 11:31:28.764 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 11:31:28.765 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (611) [evict] - Evicting 1 items (expired=1, evictionLimit=2)
+2021-10-11 11:31:28.769 [WARN ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (623) [evict] - DS: Registry: expired lease for LINKIS-MG-GATEWAY/10.18.58.173:linkis-mg-gateway:9001
+2021-10-11 11:31:28.772 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (330) [internalCancel] - Cancelled instance LINKIS-MG-GATEWAY/10.18.58.173:linkis-mg-gateway:9001 (replication=false)
+2021-10-11 11:31:34.453 [WARN ] [http-nio-20303-exec-1                   ] c.n.e.r.AbstractInstanceRegistry (353) [renew] - DS: Registry: lease doesn't exist, registering resource: LINKIS-MG-GATEWAY - 10.18.58.173:linkis-mg-gateway:9001
+2021-10-11 11:31:34.456 [WARN ] [http-nio-20303-exec-1                   ] c.n.e.r.InstanceResource (116) [renewLease] - Not Found (Renew): LINKIS-MG-GATEWAY - 10.18.58.173:linkis-mg-gateway:9001
+2021-10-11 11:31:34.603 [INFO ] [http-nio-20303-exec-2                   ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-MG-GATEWAY/10.18.58.173:linkis-mg-gateway:9001 with status UP (replication=false)
+2021-10-11 11:32:28.769 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 11:33:28.774 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 11:34:28.778 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 11:35:28.778 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 1ms
+2021-10-11 11:35:58.514 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 11:35:58.637 [INFO ] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl (539) [updateRenewalThreshold] - Current renewal threshold is : 13
+2021-10-11 11:36:28.782 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 11:37:28.784 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 2ms
+2021-10-11 11:37:28.797 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (611) [evict] - Evicting 1 items (expired=1, evictionLimit=2)
+2021-10-11 11:37:28.799 [WARN ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (623) [evict] - DS: Registry: expired lease for LINKIS-MG-GATEWAY/10.18.58.173:linkis-mg-gateway:9001
+2021-10-11 11:37:28.813 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (330) [internalCancel] - Cancelled instance LINKIS-MG-GATEWAY/10.18.58.173:linkis-mg-gateway:9001 (replication=false)
+2021-10-11 11:38:28.788 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 11:39:28.789 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 0ms
+2021-10-11 11:40:28.788 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 0ms
+2021-10-11 11:40:58.617 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 11:40:58.627 [WARN ] [Eureka-PeerNodesUpdater                 ] c.n.e.c.PeerEurekaNodes (155) [updatePeerEurekaNodes] - The replica size seems to be empty. Check the route 53 DNS Registry
+2021-10-11 11:41:28.790 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 2ms
+2021-10-11 11:42:28.793 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 11:43:28.793 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 0ms
+2021-10-11 11:44:28.797 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 11:45:28.802 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 11:45:58.617 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 11:46:28.806 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 11:47:28.808 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 0ms
+2021-10-11 11:48:28.814 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 6ms
+2021-10-11 11:49:28.811 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 0ms
+2021-10-11 11:50:28.837 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 12ms
+2021-10-11 11:50:58.637 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 11:50:58.633 [INFO ] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl (539) [updateRenewalThreshold] - Current renewal threshold is : 11
+2021-10-11 11:50:58.659 [WARN ] [Eureka-PeerNodesUpdater                 ] c.n.e.c.PeerEurekaNodes (155) [updatePeerEurekaNodes] - The replica size seems to be empty. Check the route 53 DNS Registry
+2021-10-11 11:51:28.832 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 9ms
+2021-10-11 11:52:28.842 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 9ms
+2021-10-11 12:08:50.666 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 6ms
+2021-10-11 12:09:50.670 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 10ms
+2021-10-11 12:10:50.677 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 6ms
+2021-10-11 12:11:20.466 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 12:11:50.684 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 9ms
+2021-10-11 12:12:50.693 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 9ms
+2021-10-11 12:13:50.694 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 2ms
+2021-10-11 12:14:50.699 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 6ms
+2021-10-11 12:15:50.699 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 0ms
+2021-10-11 12:16:20.481 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 12:16:20.487 [WARN ] [Eureka-PeerNodesUpdater                 ] c.n.e.c.PeerEurekaNodes (155) [updatePeerEurekaNodes] - The replica size seems to be empty. Check the route 53 DNS Registry
+2021-10-11 12:16:50.708 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 10ms
+2021-10-11 12:17:50.716 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 8ms
+2021-10-11 12:18:50.722 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 12:19:50.723 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 1ms
+2021-10-11 12:20:50.730 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 8ms
+2021-10-11 12:21:20.318 [INFO ] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl (539) [updateRenewalThreshold] - Current renewal threshold is : 11
+2021-10-11 12:21:20.491 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 12:21:50.733 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 12:22:50.743 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 10ms
+2021-10-11 12:23:50.761 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 9ms
+2021-10-11 12:24:50.761 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 9ms
+2021-10-11 12:25:50.765 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 3ms
+2021-10-11 12:26:20.506 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 12:26:20.575 [WARN ] [Eureka-PeerNodesUpdater                 ] c.n.e.c.PeerEurekaNodes (155) [updatePeerEurekaNodes] - The replica size seems to be empty. Check the route 53 DNS Registry
+2021-10-11 12:26:50.772 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 8ms
+2021-10-11 12:27:50.779 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 9ms
+2021-10-11 12:28:50.779 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 0ms
+2021-10-11 12:44:56.735 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 8ms
+2021-10-11 12:45:56.743 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 10ms
+2021-10-11 12:46:26.456 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 12:46:56.747 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 12:47:56.753 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 7ms
+2021-10-11 12:48:56.761 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 8ms
+2021-10-11 12:49:56.768 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 7ms
+2021-10-11 12:50:56.777 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 10ms
+2021-10-11 12:51:26.384 [INFO ] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl (539) [updateRenewalThreshold] - Current renewal threshold is : 11
+2021-10-11 12:51:26.458 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 12:51:26.518 [WARN ] [Eureka-PeerNodesUpdater                 ] c.n.e.c.PeerEurekaNodes (155) [updatePeerEurekaNodes] - The replica size seems to be empty. Check the route 53 DNS Registry
+2021-10-11 12:51:56.786 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 9ms
+2021-10-11 12:52:56.794 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 8ms
+2021-10-11 12:53:56.797 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 3ms
+2021-10-11 12:54:56.804 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 7ms
+2021-10-11 12:55:56.810 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 7ms
+2021-10-11 12:56:26.478 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 12:56:56.814 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 12:57:56.820 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 7ms
+2021-10-11 12:58:56.823 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 3ms
+2021-10-11 12:59:56.825 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 3ms
+2021-10-11 13:00:56.829 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 13:01:26.523 [WARN ] [Eureka-PeerNodesUpdater                 ] c.n.e.c.PeerEurekaNodes (155) [updatePeerEurekaNodes] - The replica size seems to be empty. Check the route 53 DNS Registry
+2021-10-11 13:01:26.542 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 13:01:56.837 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 7ms
+2021-10-11 13:02:56.838 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 13:03:56.844 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 6ms
+2021-10-11 13:04:56.853 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 9ms
+2021-10-11 13:05:56.855 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 3ms
+2021-10-11 13:06:26.255 [INFO ] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl (539) [updateRenewalThreshold] - Current renewal threshold is : 11
+2021-10-11 13:06:26.548 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 13:06:56.862 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 8ms
+2021-10-11 13:07:56.865 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 3ms
+2021-10-11 13:08:56.866 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 1ms
+2021-10-11 13:09:56.872 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 7ms
+2021-10-11 13:10:56.880 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 9ms
+2021-10-11 13:11:26.528 [WARN ] [Eureka-PeerNodesUpdater                 ] c.n.e.c.PeerEurekaNodes (155) [updatePeerEurekaNodes] - The replica size seems to be empty. Check the route 53 DNS Registry
+2021-10-11 13:11:26.546 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 13:11:56.889 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 9ms
+2021-10-11 13:12:56.894 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 6ms
+2021-10-11 13:13:56.901 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 13:14:56.906 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 7ms
+2021-10-11 13:15:56.915 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 10ms
+2021-10-11 13:16:26.549 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 13:16:56.916 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 2ms
+2021-10-11 13:17:56.926 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 9ms
+2021-10-11 13:18:56.930 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 13:19:56.931 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 1ms
+2021-10-11 13:20:56.937 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 6ms
+2021-10-11 13:21:26.255 [INFO ] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl (539) [updateRenewalThreshold] - Current renewal threshold is : 11
+2021-10-11 13:21:26.523 [WARN ] [Eureka-PeerNodesUpdater                 ] c.n.e.c.PeerEurekaNodes (155) [updatePeerEurekaNodes] - The replica size seems to be empty. Check the route 53 DNS Registry
+2021-10-11 13:21:26.556 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 13:21:56.949 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 9ms
+2021-10-11 13:22:56.952 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 13:23:56.951 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 3ms
+2021-10-11 13:24:56.956 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 6ms
+2021-10-11 13:25:56.965 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 9ms
+2021-10-11 13:26:26.561 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 13:26:56.975 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 10ms
+2021-10-11 13:27:56.975 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 1ms
+2021-10-11 13:28:56.983 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 8ms
+2021-10-11 13:29:56.989 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 7ms
+2021-10-11 13:30:56.993 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 13:31:26.528 [WARN ] [Eureka-PeerNodesUpdater                 ] c.n.e.c.PeerEurekaNodes (155) [updatePeerEurekaNodes] - The replica size seems to be empty. Check the route 53 DNS Registry
+2021-10-11 13:31:26.561 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 13:31:57.012 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 10ms
+2021-10-11 13:32:10.201 [WARN ] [http-nio-20303-exec-7                   ] c.n.e.r.AbstractInstanceRegistry (353) [renew] - DS: Registry: lease doesn't exist, registering resource: LINKIS-MG-GATEWAY - 10.18.58.173:linkis-mg-gateway:9001
+2021-10-11 13:32:10.220 [WARN ] [http-nio-20303-exec-7                   ] c.n.e.r.InstanceResource (116) [renewLease] - Not Found (Renew): LINKIS-MG-GATEWAY - 10.18.58.173:linkis-mg-gateway:9001
+2021-10-11 13:32:10.298 [INFO ] [http-nio-20303-exec-9                   ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-MG-GATEWAY/10.18.58.173:linkis-mg-gateway:9001 with status UP (replication=false)
+2021-10-11 13:32:57.019 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 1ms
+2021-10-11 13:33:16.711 [INFO ] [http-nio-20303-exec-1                   ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-MG-GATEWAY/10.18.58.173:linkis-mg-gateway:9001 with status DOWN (replication=false)
+2021-10-11 13:33:25.362 [INFO ] [http-nio-20303-exec-2                   ] c.n.e.r.AbstractInstanceRegistry (330) [internalCancel] - Cancelled instance LINKIS-MG-GATEWAY/10.18.58.173:linkis-mg-gateway:9001 (replication=false)
+2021-10-11 13:33:54.692 [INFO ] [http-nio-20303-exec-4                   ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-MG-GATEWAY/10.18.58.173:linkis-mg-gateway:9001 with status UP (replication=false)
+2021-10-11 13:33:57.012 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 13:34:57.015 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 13:35:57.019 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 13:35:57.023 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (611) [evict] - Evicting 1 items (expired=1, evictionLimit=2)
+2021-10-11 13:35:57.030 [WARN ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (623) [evict] - DS: Registry: expired lease for LINKIS-MG-GATEWAY/10.18.58.173:linkis-mg-gateway:9001
+2021-10-11 13:35:57.043 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (330) [internalCancel] - Cancelled instance LINKIS-MG-GATEWAY/10.18.58.173:linkis-mg-gateway:9001 (replication=false)
+2021-10-11 13:36:26.278 [INFO ] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl (539) [updateRenewalThreshold] - Current renewal threshold is : 11
+2021-10-11 13:36:26.566 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 13:36:57.028 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 10ms
+2021-10-11 13:37:21.937 [WARN ] [http-nio-20303-exec-10                  ] c.n.e.r.AbstractInstanceRegistry (353) [renew] - DS: Registry: lease doesn't exist, registering resource: LINKIS-MG-GATEWAY - 10.18.58.173:linkis-mg-gateway:9001
+2021-10-11 13:37:21.938 [WARN ] [http-nio-20303-exec-10                  ] c.n.e.r.InstanceResource (116) [renewLease] - Not Found (Renew): LINKIS-MG-GATEWAY - 10.18.58.173:linkis-mg-gateway:9001
+2021-10-11 13:37:21.975 [INFO ] [http-nio-20303-exec-9                   ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-MG-GATEWAY/10.18.58.173:linkis-mg-gateway:9001 with status UP (replication=false)
+2021-10-11 13:37:57.034 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 6ms
+2021-10-11 13:38:57.037 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 13:38:57.041 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (611) [evict] - Evicting 1 items (expired=1, evictionLimit=2)
+2021-10-11 13:38:57.042 [WARN ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (623) [evict] - DS: Registry: expired lease for LINKIS-MG-GATEWAY/10.18.58.173:linkis-mg-gateway:9001
+2021-10-11 13:38:57.043 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (330) [internalCancel] - Cancelled instance LINKIS-MG-GATEWAY/10.18.58.173:linkis-mg-gateway:9001 (replication=false)
+2021-10-11 13:39:57.040 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 1ms
+2021-10-11 13:40:57.041 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 1ms
+2021-10-11 13:41:26.537 [WARN ] [Eureka-PeerNodesUpdater                 ] c.n.e.c.PeerEurekaNodes (155) [updatePeerEurekaNodes] - The replica size seems to be empty. Check the route 53 DNS Registry
+2021-10-11 13:41:26.578 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 13:41:57.042 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 13:42:57.044 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 1ms
+2021-10-11 13:43:57.045 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 2ms
+2021-10-11 13:44:57.044 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 0ms
+2021-10-11 13:45:57.044 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 0ms
+2021-10-11 13:46:26.582 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 13:46:57.051 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 13:47:57.053 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 13:48:57.054 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 2ms
+2021-10-11 13:49:57.056 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 2ms
+2021-10-11 13:50:57.056 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 0ms
+2021-10-11 13:51:26.319 [INFO ] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl (539) [updateRenewalThreshold] - Current renewal threshold is : 11
+2021-10-11 13:51:26.536 [WARN ] [Eureka-PeerNodesUpdater                 ] c.n.e.c.PeerEurekaNodes (155) [updatePeerEurekaNodes] - The replica size seems to be empty. Check the route 53 DNS Registry
+2021-10-11 13:51:26.585 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 13:51:57.060 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 13:52:57.064 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 13:53:57.068 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 3ms
+2021-10-11 13:54:57.071 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 13:55:57.075 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 13:56:26.584 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 13:56:57.080 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 13:57:57.083 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 13:58:42.700 [WARN ] [http-nio-20303-exec-7                   ] c.n.e.r.AbstractInstanceRegistry (353) [renew] - DS: Registry: lease doesn't exist, registering resource: LINKIS-MG-GATEWAY - 10.18.58.173:linkis-mg-gateway:9001
+2021-10-11 13:58:42.701 [WARN ] [http-nio-20303-exec-7                   ] c.n.e.r.InstanceResource (116) [renewLease] - Not Found (Renew): LINKIS-MG-GATEWAY - 10.18.58.173:linkis-mg-gateway:9001
+2021-10-11 13:58:42.784 [INFO ] [http-nio-20303-exec-10                  ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-MG-GATEWAY/10.18.58.173:linkis-mg-gateway:9001 with status UP (replication=false)
+2021-10-11 13:58:57.088 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 13:59:57.087 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 0ms
+2021-10-11 14:00:57.090 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 3ms
+2021-10-11 14:01:26.541 [WARN ] [Eureka-PeerNodesUpdater                 ] c.n.e.c.PeerEurekaNodes (155) [updatePeerEurekaNodes] - The replica size seems to be empty. Check the route 53 DNS Registry
+2021-10-11 14:01:26.583 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 14:01:57.091 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 3ms
+2021-10-11 14:02:57.096 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 14:03:57.101 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 14:04:57.105 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 14:05:57.104 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 0ms
+2021-10-11 14:06:26.269 [INFO ] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl (539) [updateRenewalThreshold] - Current renewal threshold is : 13
+2021-10-11 14:06:26.584 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 14:06:57.109 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 14:07:57.113 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 14:08:57.114 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 0ms
+2021-10-11 14:09:57.116 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 14:10:57.121 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 14:11:26.555 [WARN ] [Eureka-PeerNodesUpdater                 ] c.n.e.c.PeerEurekaNodes (155) [updatePeerEurekaNodes] - The replica size seems to be empty. Check the route 53 DNS Registry
+2021-10-11 14:11:26.589 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 14:11:57.121 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 1ms
+2021-10-11 14:12:57.125 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 14:12:57.145 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (611) [evict] - Evicting 1 items (expired=1, evictionLimit=2)
+2021-10-11 14:12:57.154 [WARN ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (623) [evict] - DS: Registry: expired lease for LINKIS-MG-GATEWAY/10.18.58.173:linkis-mg-gateway:9001
+2021-10-11 14:12:57.170 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (330) [internalCancel] - Cancelled instance LINKIS-MG-GATEWAY/10.18.58.173:linkis-mg-gateway:9001 (replication=false)
+2021-10-11 14:13:02.927 [WARN ] [http-nio-20303-exec-4                   ] c.n.e.r.AbstractInstanceRegistry (353) [renew] - DS: Registry: lease doesn't exist, registering resource: LINKIS-MG-GATEWAY - 10.18.58.173:linkis-mg-gateway:9001
+2021-10-11 14:13:02.928 [WARN ] [http-nio-20303-exec-4                   ] c.n.e.r.InstanceResource (116) [renewLease] - Not Found (Renew): LINKIS-MG-GATEWAY - 10.18.58.173:linkis-mg-gateway:9001
+2021-10-11 14:13:02.972 [INFO ] [http-nio-20303-exec-5                   ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-MG-GATEWAY/10.18.58.173:linkis-mg-gateway:9001 with status UP (replication=false)
+2021-10-11 14:13:55.253 [INFO ] [http-nio-20303-exec-5                   ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-MG-GATEWAY/10.18.58.173:linkis-mg-gateway:9001 with status UP (replication=false)
+2021-10-11 14:13:57.129 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 14:14:57.131 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 2ms
+2021-10-11 14:15:57.136 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 14:16:26.594 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 14:16:57.134 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 0ms
+2021-10-11 14:17:57.139 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 14:18:57.142 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 3ms
+2021-10-11 14:19:57.146 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 14:20:57.148 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 3ms
+2021-10-11 14:21:26.267 [INFO ] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl (539) [updateRenewalThreshold] - Current renewal threshold is : 13
+2021-10-11 14:21:26.557 [WARN ] [Eureka-PeerNodesUpdater                 ] c.n.e.c.PeerEurekaNodes (155) [updatePeerEurekaNodes] - The replica size seems to be empty. Check the route 53 DNS Registry
+2021-10-11 14:21:26.596 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 14:21:57.153 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 14:22:57.154 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 3ms
+2021-10-11 14:23:57.159 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 14:24:57.159 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 1ms
+2021-10-11 14:24:57.162 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (611) [evict] - Evicting 1 items (expired=1, evictionLimit=2)
+2021-10-11 14:24:57.165 [WARN ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (623) [evict] - DS: Registry: expired lease for LINKIS-MG-GATEWAY/10.18.58.173:linkis-mg-gateway:9001
+2021-10-11 14:24:57.168 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (330) [internalCancel] - Cancelled instance LINKIS-MG-GATEWAY/10.18.58.173:linkis-mg-gateway:9001 (replication=false)
+2021-10-11 14:25:57.161 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 3ms
+2021-10-11 14:26:26.604 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 14:26:57.165 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 14:27:42.566 [WARN ] [http-nio-20303-exec-3                   ] c.n.e.r.AbstractInstanceRegistry (353) [renew] - DS: Registry: lease doesn't exist, registering resource: LINKIS-MG-GATEWAY - 10.18.58.173:linkis-mg-gateway:9001
+2021-10-11 14:27:42.569 [WARN ] [http-nio-20303-exec-3                   ] c.n.e.r.InstanceResource (116) [renewLease] - Not Found (Renew): LINKIS-MG-GATEWAY - 10.18.58.173:linkis-mg-gateway:9001
+2021-10-11 14:27:44.122 [INFO ] [http-nio-20303-exec-4                   ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-MG-GATEWAY/10.18.58.173:linkis-mg-gateway:9001 with status UP (replication=false)
+2021-10-11 14:27:57.170 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 14:28:57.179 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 14:29:57.180 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 14:30:57.181 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 14:31:26.559 [WARN ] [Eureka-PeerNodesUpdater                 ] c.n.e.c.PeerEurekaNodes (155) [updatePeerEurekaNodes] - The replica size seems to be empty. Check the route 53 DNS Registry
+2021-10-11 14:31:26.605 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 14:31:57.182 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 1ms
+2021-10-11 14:32:57.182 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 1ms
+2021-10-11 14:33:57.187 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 14:34:57.192 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 14:35:57.191 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 1ms
+2021-10-11 14:36:26.296 [INFO ] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl (539) [updateRenewalThreshold] - Current renewal threshold is : 13
+2021-10-11 14:36:26.604 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 14:36:57.198 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 14:36:57.205 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (611) [evict] - Evicting 1 items (expired=1, evictionLimit=2)
+2021-10-11 14:36:57.207 [WARN ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (623) [evict] - DS: Registry: expired lease for LINKIS-MG-GATEWAY/10.18.58.173:linkis-mg-gateway:9001
+2021-10-11 14:36:57.218 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (330) [internalCancel] - Cancelled instance LINKIS-MG-GATEWAY/10.18.58.173:linkis-mg-gateway:9001 (replication=false)
+2021-10-11 14:37:57.197 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 1ms
+2021-10-11 14:38:57.206 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 10ms
+2021-10-11 14:39:57.209 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 3ms
+2021-10-11 14:40:57.215 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 7ms
+2021-10-11 14:41:26.568 [WARN ] [Eureka-PeerNodesUpdater                 ] c.n.e.c.PeerEurekaNodes (155) [updatePeerEurekaNodes] - The replica size seems to be empty. Check the route 53 DNS Registry
+2021-10-11 14:41:26.607 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 14:41:57.226 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 9ms
+2021-10-11 14:50:48.831 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 7ms
+2021-10-11 14:50:48.833 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (611) [evict] - Evicting 1 items (expired=1, evictionLimit=2)
+2021-10-11 14:50:48.833 [WARN ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (623) [evict] - DS: Registry: expired lease for LINKIS-PS-PUBLICSERVICE/10.18.58.173:linkis-ps-publicservice:9105
+2021-10-11 14:50:48.834 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (330) [internalCancel] - Cancelled instance LINKIS-PS-PUBLICSERVICE/10.18.58.173:linkis-ps-publicservice:9105 (replication=false)
+2021-10-11 14:50:50.361 [WARN ] [http-nio-20303-exec-4                   ] c.n.e.r.AbstractInstanceRegistry (353) [renew] - DS: Registry: lease doesn't exist, registering resource: LINKIS-PS-PUBLICSERVICE - 10.18.58.173:linkis-ps-publicservice:9105
+2021-10-11 14:50:50.362 [WARN ] [http-nio-20303-exec-4                   ] c.n.e.r.InstanceResource (116) [renewLease] - Not Found (Renew): LINKIS-PS-PUBLICSERVICE - 10.18.58.173:linkis-ps-publicservice:9105
+2021-10-11 14:50:50.453 [INFO ] [http-nio-20303-exec-6                   ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-PS-PUBLICSERVICE/10.18.58.173:linkis-ps-publicservice:9105 with status UP (replication=false)
+2021-10-11 14:51:39.911 [WARN ] [http-nio-20303-exec-10                  ] c.n.e.r.AbstractInstanceRegistry (353) [renew] - DS: Registry: lease doesn't exist, registering resource: LINKIS-MG-GATEWAY - 10.18.58.173:linkis-mg-gateway:9001
+2021-10-11 14:51:39.911 [WARN ] [http-nio-20303-exec-10                  ] c.n.e.r.InstanceResource (116) [renewLease] - Not Found (Renew): LINKIS-MG-GATEWAY - 10.18.58.173:linkis-mg-gateway:9001
+2021-10-11 14:51:40.335 [INFO ] [http-nio-20303-exec-9                   ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-MG-GATEWAY/10.18.58.173:linkis-mg-gateway:9001 with status UP (replication=false)
+2021-10-11 14:51:48.834 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 14:52:48.838 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 14:53:48.839 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 2ms
+2021-10-11 14:54:18.224 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 14:54:48.845 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 14:55:48.850 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 14:56:48.853 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 14:57:48.860 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 14:58:48.860 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 14:59:17.861 [INFO ] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl (539) [updateRenewalThreshold] - Current renewal threshold is : 17
+2021-10-11 14:59:18.173 [WARN ] [Eureka-PeerNodesUpdater                 ] c.n.e.c.PeerEurekaNodes (155) [updatePeerEurekaNodes] - The replica size seems to be empty. Check the route 53 DNS Registry
+2021-10-11 14:59:18.230 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 14:59:48.863 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 3ms
+2021-10-11 15:00:48.866 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 3ms
+2021-10-11 15:01:48.867 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 1ms
+2021-10-11 15:02:48.867 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 1ms
+2021-10-11 15:03:48.872 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 15:04:18.230 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 15:04:48.873 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 2ms
+2021-10-11 15:05:48.877 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 15:06:48.882 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 15:07:48.885 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 15:08:48.887 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 0ms
+2021-10-11 15:09:18.179 [WARN ] [Eureka-PeerNodesUpdater                 ] c.n.e.c.PeerEurekaNodes (155) [updatePeerEurekaNodes] - The replica size seems to be empty. Check the route 53 DNS Registry
+2021-10-11 15:09:18.230 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 15:09:48.886 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 1ms
+2021-10-11 15:10:48.888 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 3ms
+2021-10-11 15:11:48.893 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 15:12:48.897 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 15:13:48.899 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 2ms
+2021-10-11 15:14:17.853 [INFO ] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl (539) [updateRenewalThreshold] - Current renewal threshold is : 17
+2021-10-11 15:14:18.230 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 15:14:48.903 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 15:15:48.907 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 15:16:48.912 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 15:17:48.911 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 1ms
+2021-10-11 15:18:48.912 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 1ms
+2021-10-11 15:19:18.184 [WARN ] [Eureka-PeerNodesUpdater                 ] c.n.e.c.PeerEurekaNodes (155) [updatePeerEurekaNodes] - The replica size seems to be empty. Check the route 53 DNS Registry
+2021-10-11 15:19:18.230 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 15:19:48.912 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 0ms
+2021-10-11 15:20:48.915 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 15:21:48.917 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 2ms
+2021-10-11 15:22:48.918 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 1ms
+2021-10-11 15:23:48.921 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 15:24:18.232 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 15:24:48.923 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 2ms
+2021-10-11 15:25:48.923 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 1ms
+2021-10-11 15:26:48.926 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 3ms
+2021-10-11 15:27:48.926 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 0ms
+2021-10-11 15:28:48.927 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 2ms
+2021-10-11 15:29:17.863 [INFO ] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl (539) [updateRenewalThreshold] - Current renewal threshold is : 17
+2021-10-11 15:29:18.182 [WARN ] [Eureka-PeerNodesUpdater                 ] c.n.e.c.PeerEurekaNodes (155) [updatePeerEurekaNodes] - The replica size seems to be empty. Check the route 53 DNS Registry
+2021-10-11 15:29:18.241 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 15:29:48.935 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 15:30:48.942 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 15:31:48.941 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 15:32:48.945 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 15:33:48.948 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 15:34:18.242 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 15:34:48.955 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 15:35:48.960 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 15:36:48.961 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 15:37:02.990 [INFO ] [http-nio-20303-exec-5                   ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-MG-GATEWAY/10.18.58.173:linkis-mg-gateway:9001 with status DOWN (replication=false)
+2021-10-11 15:37:11.459 [INFO ] [http-nio-20303-exec-8                   ] c.n.e.r.AbstractInstanceRegistry (330) [internalCancel] - Cancelled instance LINKIS-MG-GATEWAY/10.18.58.173:linkis-mg-gateway:9001 (replication=false)
+2021-10-11 15:37:48.966 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 15:38:41.539 [INFO ] [http-nio-20303-exec-3                   ] c.n.e.r.AbstractInstanceRegistry (266) [register] - Registered instance LINKIS-MG-GATEWAY/10.18.58.173:linkis-mg-gateway:9001 with status UP (replication=false)
+2021-10-11 15:38:48.970 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 15:39:18.191 [WARN ] [Eureka-PeerNodesUpdater                 ] c.n.e.c.PeerEurekaNodes (155) [updatePeerEurekaNodes] - The replica size seems to be empty. Check the route 53 DNS Registry
+2021-10-11 15:39:18.248 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 15:39:48.975 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 15:40:48.980 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 3ms
+2021-10-11 15:41:48.980 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 15:42:48.984 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 15:43:48.987 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 3ms
+2021-10-11 15:44:17.864 [INFO ] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl (539) [updateRenewalThreshold] - Current renewal threshold is : 17
+2021-10-11 15:44:18.254 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 15:44:48.992 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 5ms
+2021-10-11 15:45:48.996 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms
+2021-10-11 15:46:48.998 [INFO ] [Eureka-EvictionTimer                    ] c.n.e.r.AbstractInstanceRegistry (1250) [run] - Running the evict task with compensationTime 4ms

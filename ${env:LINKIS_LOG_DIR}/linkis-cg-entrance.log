@@ -1,0 +1,183 @@
+2021-10-11 11:22:19.114 [INFO ] [main                                    ] c.w.w.l.LinkisBaseServerApp (47) [main] - Ready to start linkis-cg-entrance with args: --spring.profiles.active=linkis
+--server.port=9104
+--application.name=linkis-cg-entrance.
+2021-10-11 11:22:23.151 [INFO ] [main                                    ] o.s.c.c.c.ConfigServicePropertySourceLocator (249) [getRemoteEnvironment] - Fetching config from server at : http://localhost:8888
+2021-10-11 11:22:23.490 [INFO ] [main                                    ] o.s.c.c.c.ConfigServicePropertySourceLocator (273) [getRemoteEnvironment] - Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+2021-10-11 11:22:23.491 [WARN ] [main                                    ] o.s.c.c.c.ConfigServicePropertySourceLocator (152) [locate] - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/linkis-cg-entrance/linkis": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)
+2021-10-11 11:22:23.542 [INFO ] [main                                    ] c.w.w.l.DataWorkCloudApplication (655) [logStartupProfileInfo] - The following profiles are active: linkis
+2021-10-11 11:22:23.751 [INFO ] [main                                    ] c.w.w.l.DataWorkCloudApplication (84) [onApplicationEvent] - add config from config server...
+2021-10-11 11:22:23.751 [INFO ] [main                                    ] c.w.w.l.DataWorkCloudApplication (89) [onApplicationEvent] - initialize DataWorkCloud spring application...
+2021-10-11 11:22:28.369 [INFO ] [main                                    ] o.s.c.c.s.GenericScope (295) [setSerializationId] - BeanFactory id=8284cb7f-cf01-346d-8e14-337320d48c5f
+2021-10-11 11:22:29.408 [INFO ] [main                                    ] o.e.j.u.log (169) [initialized] - Logging initialized @13224ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-10-11 11:22:29.814 [INFO ] [main                                    ] o.s.b.w.e.j.JettyServletWebServerFactory (147) [getWebServer] - Server initialized with port: 9104
+2021-10-11 11:22:29.893 [INFO ] [main                                    ] o.e.j.s.Server (359) [doStart] - jetty-9.4.30.v20200611; built: 2020-06-11T12:34:51.929Z; git: 271836e4c1f4612f12b7bb13ef5a92a927634b0d; jvm 1.8.0_301-b09
+2021-10-11 11:22:29.933 [INFO ] [main                                    ] o.e.j.s.h.C.application (2232) [log] - Initializing Spring embedded WebApplicationContext
+2021-10-11 11:22:29.933 [INFO ] [main                                    ] o.s.b.w.s.c.ServletWebServerApplicationContext (285) [prepareWebApplicationContext] - Root WebApplicationContext: initialization completed in 6173 ms
+2021-10-11 11:22:30.167 [WARN ] [main                                    ] c.n.c.s.URLConfigurationSource (121) [<init>] - No URLs will be polled as dynamic configuration sources.
+2021-10-11 11:22:30.169 [INFO ] [main                                    ] c.n.c.s.URLConfigurationSource (122) [<init>] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-11 11:22:30.194 [INFO ] [main                                    ] c.n.c.DynamicPropertyFactory (281) [getInstance] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@7612116b
+2021-10-11 11:22:30.482 [WARN ] [main                                    ] o.s.b.a.e.EndpointId (155) [logWarning] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2021-10-11 11:22:30.676 [INFO ] [main                                    ] o.e.j.s.session (333) [doStart] - DefaultSessionIdManager workerName=node0
+2021-10-11 11:22:30.677 [INFO ] [main                                    ] o.e.j.s.session (338) [doStart] - No SessionScavenger set, using defaults
+2021-10-11 11:22:30.680 [INFO ] [main                                    ] o.e.j.s.session (140) [startScavenging] - node0 Scavenging every 600000ms
+2021-10-11 11:22:30.691 [INFO ] [main                                    ] o.e.j.s.h.ContextHandler (824) [doStart] - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@33399052{application,/,[file:///private/var/folders/hw/68_mltw17zb0pj2gvsx9yf9r0000gn/T/jetty-docbase.5165387621063038056.9104/],AVAILABLE}
+2021-10-11 11:22:30.693 [INFO ] [main                                    ] o.e.j.s.Server (399) [doStart] - Started @14514ms
+2021-10-11 11:22:30.809 [INFO ] [main                                    ] c.w.w.l.e.c.EntranceSpringConfiguration$$EnhancerBySpringCGLIB$$cc1e9752 (54) [<init>] - load the ujes-entrance spring configuration.
+2021-10-11 11:22:30.964 [INFO ] [main                                    ] c.w.w.l.e.c.EntranceSpringConfiguration$$EnhancerBySpringCGLIB$$cc1e9752 (74) [generatePersistenceManager] - init PersistenceManager.
+2021-10-11 11:22:31.727 [INFO ] [main                                    ] o.r.Reflections (229) [scan] - Reflections took 680 ms to scan 27 urls, producing 605 keys and 6983 values 
+2021-10-11 11:22:31.799 [INFO ] [main                                    ] c.w.w.l.m.l.b.f.LabelBuilderFactoryContext (80) [labelBuilderInitRegister] - Succeed  to register label builder: com.webank.wedatasphere.linkis.manager.label.builder.CombinedLabelBuilder
+2021-10-11 11:22:32.618 [INFO ] [main                                    ] c.w.w.l.e.c.s.LinkisErrorCodeSynchronizer (60) [init] - start to get errorcodes from linkis server
+2021-10-11 11:22:32.619 [INFO ] [Linkis-Default-Scheduler-Thread-1       ] c.w.w.l.e.c.s.LinkisErrorCodeSynchronizer (62) [lambda$init$0] - start to get errorcodes from linkis server
+2021-10-11 11:22:32.779 [INFO ] [main                                    ] c.w.w.l.o.e.c.EngineAsyncResponseCacheMap (40) [info] - Start cache map clear defaultScheduler
+2021-10-11 11:22:32.827 [INFO ] [main                                    ] c.w.w.l.s.q.p.ParallelConsumerManager (40) [info] - The feature that auto clean up idle consumers for EntranceJobScheduler is enabled.
+2021-10-11 11:22:32.899 [INFO ] [main                                    ] c.w.w.l.c.c.Configuration$ (40) [info] - gatewayUrl is http://127.0.0.1:9001
+2021-10-11 11:22:32.912 [INFO ] [main                                    ] c.w.w.l.e.i.i.ShellDangerousGrammerInterceptor (40) [info] - shellDangerousGrammerCheckSwitch : true
+2021-10-11 11:22:32.913 [INFO ] [main                                    ] c.w.w.l.e.i.i.ShellDangerousGrammerInterceptor (40) [info] - SHELL DANGER USAGE rm,sh,find,kill,python,for,source,hdfs,hadoop,spark-sql,spark-submit,pyspark,spark-shell,hive,yarn,df,dd
+2021-10-11 11:22:32.913 [INFO ] [main                                    ] c.w.w.l.e.i.i.ShellDangerousGrammerInterceptor (40) [info] - SHELL White USAGE cd,ls,echo
+2021-10-11 11:22:32.963 [INFO ] [main                                    ] c.w.w.l.e.c.DefaultEntranceContext (79) [init] - Finished init entranceParser from postConstruct end!
+2021-10-11 11:22:32.965 [INFO ] [main                                    ] c.w.w.l.e.e.EntranceLogListenerBus (40) [info] - linkis-cg-entrance-EventListenerBus-ListenerBus add a new listener => class com.webank.wedatasphere.linkis.entrance.log.CacheLogManager
+2021-10-11 11:22:33.204 [INFO ] [main                                    ] c.w.w.l.r.RPCReceiveRestful (40) [info] - init all receiverChoosers in spring beans, list => List(com.webank.wedatasphere.linkis.rpc.MessageReceiverChooser@73baf7f0, com.webank.wedatasphere.linkis.rpc.CommonReceiverChooser@1cdad619)
+2021-10-11 11:22:33.215 [INFO ] [main                                    ] c.w.w.l.r.RPCReceiveRestful (40) [info] - init all receiverSenderBuilders in spring beans, list => List(com.webank.wedatasphere.linkis.rpc.CommonReceiverSenderBuilder@2ffcdc9b)
+2021-10-11 11:22:33.224 [INFO ] [main                                    ] c.w.w.l.r.RPCReceiveRestful (40) [info] - init RPCReceiverListenerBus with queueSize 5000 and consumeThreadSize 400.
+2021-10-11 11:22:33.225 [INFO ] [main                                    ] c.w.w.l.r.AsynRPCMessageBus (40) [info] - RPC-Receiver-Asyn-Thread-ListenerBus add a new listener => class com.webank.wedatasphere.linkis.rpc.RPCReceiveRestful$$anon$1
+2021-10-11 11:22:33.843 [INFO ] [Linkis-Default-Scheduler-Thread-3       ] c.w.w.l.s.q.p.ParallelConsumerManager (40) [info] - Start to Clean up idle consumers 
+2021-10-11 11:22:33.869 [INFO ] [Linkis-Default-Scheduler-Thread-3       ] c.w.w.l.s.q.p.ParallelConsumerManager (40) [info] - Finished to clean up idle consumers for EntranceJobScheduler, cost 25 ms.
+2021-10-11 11:22:34.202 [INFO ] [main                                    ] o.s.c.n.e.InstanceInfoFactory (72) [create] - Setting initial instance status as: STARTING
+2021-10-11 11:22:34.323 [INFO ] [main                                    ] c.n.d.DiscoveryClient (365) [<init>] - Initializing Eureka in region us-east-1
+2021-10-11 11:22:34.877 [INFO ] [main                                    ] c.n.d.p.DiscoveryJerseyProvider (70) [<init>] - Using JSON encoding codec LegacyJacksonJson
+2021-10-11 11:22:34.881 [INFO ] [main                                    ] c.n.d.p.DiscoveryJerseyProvider (71) [<init>] - Using JSON decoding codec LegacyJacksonJson
+2021-10-11 11:22:35.291 [INFO ] [main                                    ] c.n.d.p.DiscoveryJerseyProvider (80) [<init>] - Using XML encoding codec XStreamXml
+2021-10-11 11:22:35.293 [INFO ] [main                                    ] c.n.d.p.DiscoveryJerseyProvider (81) [<init>] - Using XML decoding codec XStreamXml
+2021-10-11 11:22:36.225 [INFO ] [main                                    ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 11:22:36.266 [INFO ] [main                                    ] c.n.d.DiscoveryClient (976) [fetchRegistry] - Disable delta property : false
+2021-10-11 11:22:36.266 [INFO ] [main                                    ] c.n.d.DiscoveryClient (977) [fetchRegistry] - Single vip registry refresh property : null
+2021-10-11 11:22:36.267 [INFO ] [main                                    ] c.n.d.DiscoveryClient (978) [fetchRegistry] - Force full registry fetch : false
+2021-10-11 11:22:36.267 [INFO ] [main                                    ] c.n.d.DiscoveryClient (979) [fetchRegistry] - Application is null : false
+2021-10-11 11:22:36.267 [INFO ] [main                                    ] c.n.d.DiscoveryClient (980) [fetchRegistry] - Registered Applications size is zero : true
+2021-10-11 11:22:36.267 [INFO ] [main                                    ] c.n.d.DiscoveryClient (982) [fetchRegistry] - Application version is -1: true
+2021-10-11 11:22:36.267 [INFO ] [main                                    ] c.n.d.DiscoveryClient (1065) [getAndStoreFullRegistry] - Getting all instance registry info from the eureka server
+2021-10-11 11:22:36.653 [INFO ] [main                                    ] c.n.d.DiscoveryClient (1074) [getAndStoreFullRegistry] - The response status is 200
+2021-10-11 11:22:36.661 [INFO ] [main                                    ] c.n.d.DiscoveryClient (1288) [initScheduledTasks] - Starting heartbeat executor: renew interval is: 30
+2021-10-11 11:22:36.676 [INFO ] [main                                    ] c.n.d.InstanceInfoReplicator (60) [<init>] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-10-11 11:22:36.712 [INFO ] [main                                    ] c.n.d.DiscoveryClient (465) [<init>] - Discovery Client initialized at timestamp 1633922556695 with initial instances count: 7
+2021-10-11 11:22:37.772 [INFO ] [main                                    ] o.r.Reflections (229) [scan] - Reflections took 812 ms to scan 27 urls, producing 639 keys and 7275 values 
+2021-10-11 11:22:37.836 [INFO ] [main                                    ] c.w.w.l.r.MessageRPCReceiveRestful (40) [info] - init all receiverChoosers in spring beans, list => List(com.webank.wedatasphere.linkis.rpc.MessageReceiverChooser@73baf7f0, com.webank.wedatasphere.linkis.rpc.CommonReceiverChooser@f451970)
+2021-10-11 11:22:37.837 [INFO ] [main                                    ] c.w.w.l.r.MessageRPCReceiveRestful (40) [info] - init all receiverSenderBuilders in spring beans, list => List(com.webank.wedatasphere.linkis.rpc.CommonReceiverSenderBuilder@4a7c8cb7)
+2021-10-11 11:22:37.839 [INFO ] [main                                    ] c.w.w.l.r.MessageRPCReceiveRestful (40) [info] - init RPCReceiverListenerBus with queueSize 5000 and consumeThreadSize 400.
+2021-10-11 11:22:37.839 [INFO ] [main                                    ] c.w.w.l.r.AsynRPCMessageBus (40) [info] - RPC-Receiver-Asyn-Thread-ListenerBus add a new listener => class com.webank.wedatasphere.linkis.rpc.RPCReceiveRestful$$anon$1
+2021-10-11 11:22:37.844 [INFO ] [main                                    ] c.w.w.l.r.MessageRPCReceiveRestful (40) [info] - init all receiverChoosers in spring beans, list => List(com.webank.wedatasphere.linkis.rpc.MessageReceiverChooser@73baf7f0, com.webank.wedatasphere.linkis.rpc.CommonReceiverChooser@4d145177)
+2021-10-11 11:22:37.847 [INFO ] [main                                    ] c.w.w.l.r.MessageRPCReceiveRestful (40) [info] - init all receiverSenderBuilders in spring beans, list => List(com.webank.wedatasphere.linkis.rpc.CommonReceiverSenderBuilder@5687ade6)
+2021-10-11 11:22:38.106 [INFO ] [main                                    ] c.w.w.l.o.c.e.CodeExecTaskExecutorManager$ (40) [info] - Use com.webank.wedatasphere.linkis.orchestrator.computation.execute.DefaultCodeExecTaskExecutorManager to instance a new codeExecTaskExecutorManager.
+2021-10-11 11:22:38.123 [INFO ] [main                                    ] c.w.w.l.o.c.m.EngineConnMonitor$ (40) [info] - Entrance engineStatusMonitor inited.
+2021-10-11 11:22:38.205 [INFO ] [main                                    ] c.w.w.l.s.i.i.IOMethodInterceptorCreatorImpl (40) [info] - IOMethodInterceptorCreatorImpl finished init
+2021-10-11 11:22:38.487 [WARN ] [main                                    ] c.n.c.s.URLConfigurationSource (121) [<init>] - No URLs will be polled as dynamic configuration sources.
+2021-10-11 11:22:38.487 [INFO ] [main                                    ] c.n.c.s.URLConfigurationSource (122) [<init>] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-11 11:22:39.180 [INFO ] [main                                    ] o.s.s.c.ThreadPoolTaskExecutor (181) [initialize] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-11 11:22:39.862 [WARN ] [main                                    ] c.w.w.l.m.u.MessageUtils (43) [getBean] - can not get bean from spring ioc:com.webank.wedatasphere.linkis.orchestrator.ecm.service.impl.DefaultTaskExecutionReceiver
+2021-10-11 11:22:39.873 [INFO ] [main                                    ] c.w.w.l.s.q.p.ParallelConsumerManager (40) [info] - The feature that auto clean up idle consumers for RpcMessageScheduler is enabled.
+2021-10-11 11:22:39.888 [WARN ] [main                                    ] c.w.w.l.m.u.MessageUtils (43) [getBean] - can not get bean from spring ioc:org.springframework.transaction.PlatformTransactionManager
+2021-10-11 11:22:40.881 [INFO ] [Linkis-Default-Scheduler-Thread-5       ] c.w.w.l.s.q.p.ParallelConsumerManager (40) [info] - Start to Clean up idle consumers 
+2021-10-11 11:22:40.891 [INFO ] [Linkis-Default-Scheduler-Thread-5       ] c.w.w.l.s.q.p.ParallelConsumerManager (40) [info] - Finished to clean up idle consumers for RpcMessageScheduler, cost 1 ms.
+2021-10-11 11:22:42.169 [INFO ] [main                                    ] o.s.c.c.u.InetUtils (170) [convertAddress] - Cannot determine local hostname
+2021-10-11 11:22:42.280 [WARN ] [main                                    ] o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger (86) [logWarning] - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-10-11 11:22:42.758 [INFO ] [main                                    ] o.s.b.a.e.w.EndpointLinksResolver (58) [<init>] - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-10-11 11:22:43.178 [INFO ] [main                                    ] o.s.c.n.e.s.EurekaServiceRegistry (41) [register] - Registering application LINKIS-CG-ENTRANCE with eureka with status UP
+2021-10-11 11:22:43.182 [INFO ] [main                                    ] c.n.d.DiscoveryClient (1323) [notify] - Saw local status change event StatusChangeEvent [timestamp=1633922563182, current=UP, previous=STARTING]
+2021-10-11 11:22:43.190 [INFO ] [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.DiscoveryClient (844) [register] - DiscoveryClient_LINKIS-CG-ENTRANCE/10.18.58.173:linkis-cg-entrance:9104: registering service...
+2021-10-11 11:22:43.461 [INFO ] [main                                    ] o.e.j.s.h.C.application (2232) [log] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-11 11:22:43.465 [INFO ] [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.DiscoveryClient (853) [register] - DiscoveryClient_LINKIS-CG-ENTRANCE/10.18.58.173:linkis-cg-entrance:9104 - registration status: 204
+2021-10-11 11:22:43.465 [INFO ] [main                                    ] o.s.w.s.DispatcherServlet (525) [initServletBean] - Initializing Servlet 'dispatcherServlet'
+2021-10-11 11:22:43.544 [INFO ] [main                                    ] o.s.w.s.DispatcherServlet (547) [initServletBean] - Completed initialization in 78 ms
+2021-10-11 11:22:43.710 [INFO ] [main                                    ] o.e.j.s.AbstractConnector (293) [doStart] - Started ServerConnector@41f686af{HTTP/1.1,[http/1.1]}{0.0.0.0:9104}
+2021-10-11 11:22:43.720 [INFO ] [main                                    ] o.s.b.w.e.j.JettyWebServer (185) [start] - Jetty started on port(s) 9104 (http/1.1) with context path '/'
+2021-10-11 11:22:43.741 [INFO ] [main                                    ] o.s.c.n.e.s.EurekaAutoServiceRegistration (145) [onApplicationEvent] - Updating port to 9104
+2021-10-11 11:22:43.784 [INFO ] [main                                    ] c.w.w.l.r.c.RPCSpringConfiguration$$EnhancerBySpringCGLIB$$314e7796 (40) [info] - DataWorkCloud RPC need register RPCReceiveRestful, now add it to configuration.
+2021-10-11 11:22:43.785 [INFO ] [main                                    ] c.w.w.l.DataWorkCloudApplication (84) [onApplicationEvent] - add config from config server...
+2021-10-11 11:22:43.785 [INFO ] [main                                    ] c.w.w.l.DataWorkCloudApplication (89) [onApplicationEvent] - initialize DataWorkCloud spring application...
+2021-10-11 11:22:43.878 [INFO ] [main                                    ] c.w.w.l.DataWorkCloudApplication (61) [logStarted] - Started DataWorkCloudApplication in 24.329 seconds (JVM running for 27.696)
+2021-10-11 11:27:36.308 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 11:32:36.354 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 11:37:36.398 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 11:42:36.452 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 11:47:36.480 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 11:52:36.505 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 12:12:58.344 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 12:17:58.361 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 12:22:58.440 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 12:27:58.511 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 12:48:04.478 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 12:53:00.343 [INFO ] [Linkis-Default-Scheduler-Thread-15      ] c.w.w.l.e.c.s.LinkisErrorCodeSynchronizer (62) [lambda$init$0] - start to get errorcodes from linkis server
+2021-10-11 12:53:04.494 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 12:58:04.505 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 13:03:00.429 [ERROR] [Linkis-Default-Scheduler-Thread-15      ] c.w.w.l.e.c.LinkisErrorCodeClient (56) [getErrorCodesFromServer] - Failed to get ErrorCodes from server java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method) ~[?:1.8.0_301]
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116) ~[?:1.8.0_301]
+	at java.net.SocketInputStream.read(SocketInputStream.java:171) ~[?:1.8.0_301]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:1.8.0_301]
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137) ~[httpcore-4.4.7.jar:4.4.7]
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153) ~[httpcore-4.4.7.jar:4.4.7]
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:282) ~[httpcore-4.4.7.jar:4.4.7]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138) ~[httpclient-4.5.4.jar:4.5.4]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56) ~[httpclient-4.5.4.jar:4.5.4]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259) ~[httpcore-4.4.7.jar:4.4.7]
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163) ~[httpcore-4.4.7.jar:4.4.7]
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:165) ~[httpclient-4.5.4.jar:4.5.4]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273) ~[httpcore-4.4.7.jar:4.4.7]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125) ~[httpcore-4.4.7.jar:4.4.7]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272) ~[httpclient-4.5.4.jar:4.5.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185) ~[httpclient-4.5.4.jar:4.5.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[httpclient-4.5.4.jar:4.5.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111) ~[httpclient-4.5.4.jar:4.5.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient-4.5.4.jar:4.5.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.4.jar:4.5.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108) ~[httpclient-4.5.4.jar:4.5.4]
+	at com.webank.wedatasphere.linkis.httpclient.AbstractHttpClient.executeRequest(AbstractHttpClient.scala:277) ~[classes/:?]
+	at com.webank.wedatasphere.linkis.httpclient.AbstractHttpClient.com$webank$wedatasphere$linkis$httpclient$AbstractHttpClient$$addAttempt$1(AbstractHttpClient.scala:96) ~[classes/:?]
+	at com.webank.wedatasphere.linkis.httpclient.AbstractHttpClient.execute(AbstractHttpClient.scala:100) ~[classes/:?]
+	at com.webank.wedatasphere.linkis.httpclient.AbstractHttpClient.execute(AbstractHttpClient.scala:83) ~[classes/:?]
+	at com.webank.wedatasphere.linkis.errorcode.client.LinkisErrorCodeClient.getErrorCodesFromServer(LinkisErrorCodeClient.java:54) ~[classes/:?]
+	at com.webank.wedatasphere.linkis.errorcode.client.synchronizer.LinkisErrorCodeSynchronizer.lambda$init$0(LinkisErrorCodeSynchronizer.java:66) ~[classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_301]
+	at java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:308) [?:1.8.0_301]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java) [?:1.8.0_301]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_301]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [?:1.8.0_301]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_301]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_301]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_301]
+
+2021-10-11 13:03:00.592 [ERROR] [Linkis-Default-Scheduler-Thread-15      ] c.w.w.l.e.c.LinkisErrorCodeClient (64) [getErrorCodesFromServer] - failde to get errorcodes from server and result is null
+2021-10-11 13:03:04.517 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 13:08:04.526 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 13:13:04.545 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 13:18:04.546 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 13:23:04.551 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 13:28:04.559 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 13:33:04.624 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 13:38:04.720 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 13:43:04.757 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 13:48:04.768 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 13:53:00.284 [INFO ] [Linkis-Default-Scheduler-Thread-5       ] c.w.w.l.e.c.s.LinkisErrorCodeSynchronizer (62) [lambda$init$0] - start to get errorcodes from linkis server
+2021-10-11 13:53:04.779 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 13:58:04.792 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 14:03:04.803 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 14:08:04.818 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 14:13:04.848 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 14:18:04.856 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 14:23:04.866 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 14:28:04.878 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 14:33:04.895 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 14:38:04.927 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 14:50:56.549 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 14:55:56.551 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 15:00:51.840 [INFO ] [Linkis-Default-Scheduler-Thread-14      ] c.w.w.l.e.c.s.LinkisErrorCodeSynchronizer (62) [lambda$init$0] - start to get errorcodes from linkis server
+2021-10-11 15:01:04.092 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 15:06:04.135 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 15:11:04.140 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 15:16:04.150 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 15:21:04.162 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 15:26:04.169 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 15:31:04.186 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 15:36:04.209 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 15:41:04.222 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2021-10-11 15:46:04.231 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
